@@ -5,7 +5,9 @@ This is my C++ implementation of Peter Norvig's Sudoku Solver: http://norvig.com
 It uses constraint propagation and depth-first search using the minimum remaining values heuristic for variable ordering.
 
 ### Usage
-Change the filepath to the sudoku puzzle you wish to solve. Use the makefile to compile main.exe after making any changes in main.cpp.
+Change the filepath to the sudoku puzzle you wish to solve. 
+
+Use the makefile to compile main.exe after making any changes in main.cpp.
 
 ```make
 make bin/main.exe
